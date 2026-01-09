@@ -22,6 +22,22 @@ Make sure `ag-example.py` (or whatever you named the file with `FunctionAgentSer
 
 ---
 
+Copy the example environment file and edit it to add your LLM API key:
+
+```bash
+cp .env.example .env
+```
+
+Open `.env` in your editor and set the appropriate API key for your LLM provider (e.g., OpenAI, Azure, etc.). For example:
+
+```
+AETHERGRAPH_LLM__DEFAULT__EMBED_MODEL=sk-...
+```
+
+Make sure this file is present in your project directory before starting the server.
+
+---
+
 ## 2. Start the server with hot reload
 
 From the folder containing your example:
