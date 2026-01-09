@@ -20,7 +20,6 @@ pip install aethergraph
 
 Make sure `ag-example.py` (or whatever you named the file with `FunctionAgentService` and `add_chat_agent`) is in your current directory.
 
----
 
 Copy the example environment file and edit it to add your LLM API key:
 
@@ -28,13 +27,7 @@ Copy the example environment file and edit it to add your LLM API key:
 cp .env.example .env
 ```
 
-Open `.env` in your editor and set the appropriate API key for your LLM provider (e.g., OpenAI, Azure, etc.). For example:
-
-```
-AETHERGRAPH_LLM__DEFAULT__EMBED_MODEL=sk-...
-```
-
-Make sure this file is present in your project directory before starting the server.
+Open `.env` in your editor and set the appropriate API key for your LLM provider (e.g., OpenAI, Azure, etc.). Make sure this file is present in your project directory before starting the server.
 
 ---
 
